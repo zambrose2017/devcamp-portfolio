@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 
->this is a Ruby on Rails 5 application that allows users to create their own portfolios
+> this is a Ruby on Rails 5 application that allows users to create their own portfolios
 ### Features
  -Real time chat engin for comments
  -blog
