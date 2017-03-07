@@ -43,7 +43,7 @@ def update
     	
     end
 def destroy
-    #prefroms the look up
+    #perfroms the look up
     #destroys/deletes the record
     @portfolio_item.destroy
     #redirect
