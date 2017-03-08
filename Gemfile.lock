@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/zambrose2017/zambrose_view_tool-
+  revision: 56cb610ca7b62ed510fe8c6f0f121bb123c8e3db
+  specs:
+    zambrose_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -201,6 +207,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
+  zambrose_view_tool!
 
 BUNDLED WITH
    1.14.6

@@ -15,4 +15,9 @@ module ApplicationHelper
           content_tag(:p, greeting, class: "source-greeting")
     end 
   end
+def copyright_generator
+  ZambroseViewTool::Renderer.copyright "Zac Ambrose", "All rights reserved"
 end
+
+end
+
