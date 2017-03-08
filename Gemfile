@@ -55,4 +55,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~>5.1.0'
 gem 'bootstrap', '~> 4.0.0.alpha6'
-gem 'zambrose_view_tool', git: 'https://github.com/zambrose2017/zambrose_view_tool-'
+gem 'zambrose_view_tool', '~> 0.1.0'
