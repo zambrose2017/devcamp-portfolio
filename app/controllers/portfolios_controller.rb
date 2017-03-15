@@ -20,7 +20,6 @@ def angular
 end
 	def new
 		@portfolio_item = Portfolio.new
-    3.times { @portfolio_item.technologies.build}	
 
   end
 
@@ -71,6 +70,6 @@ private
                                       :body,
                                       :main_image,
                                       :thumb_image,
-                                      technologies_attributes: [:name])
+                                      technologies_attributes: [:id, :name, :_destroy])
     end
 end
