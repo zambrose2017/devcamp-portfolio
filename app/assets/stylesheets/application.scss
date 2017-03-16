@@ -156,7 +156,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 67rem;
   }
 }
 
@@ -214,4 +214,16 @@ text-align: right;
 #gritter-notice-wrapper {
  margin-top: 50px;
  margin-right: -20px;
+}
+.tech-news{
+  color: black;
+  margin: 20px; 
+}
+.tech-news a{
+  color: blue;
+  
+}
+.tech-news > .card {
+  padding: 20px
+  
 }
