@@ -4,12 +4,66 @@
     <h1>My Shady Past</h1>
     <hr>
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-4">
         <%= image_tag "Oregon.JPG", height: 400,  alt: "profile image", class: 'profile-img'%>
       </div>
-      <div class="col-md-7">
+      <div class="col-md-8">
         <p>This is a bunch of stuff about me <br>
-        and i dont know what to write here</p>
+        and i dont know what to write here
+        </p>
+        <p>
+        more stuff i dont know
+        </p>
+      
+        <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#jobHistory"
+          aria-expanded="false"
+          aria-controler="jobHistory"
+        >
+            Job History
+        </button>
+        </p>
+                <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#education"
+          aria-expanded="false"
+          aria-controler="education"
+        >
+            Education
+        </button>
+        </p>
+
+        <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+            job 1
+            </div>
+            <div class="card card-block">
+            job 2
+            </div>
+            <div class="card card-block">
+            job 3
+            </div>
+          </div>
+        </p>
+
+          <p>
+          <div class="collapse" id="education">
+            <div class="card card-block">
+            some eduaction
+            </div>
+            <div class="card card-block">
+            education 
+            </div>
+          </div>
+        </p>
       </div>
      </div> 
   </div>
