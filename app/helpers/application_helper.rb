@@ -32,7 +32,7 @@ end
     },
     {
       url:contact_path,
-      title: "contact"
+      title: "Contact"
     },
     {
       url:blogs_path,
