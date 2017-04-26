@@ -234,7 +234,8 @@ text-align: right;
   
 }
 .tech-news > .card {
-  padding: 20px
+  padding: 10px;
+  opacity: 0.8;
   
 }
 
@@ -243,11 +244,15 @@ text-align: right;
   text-align:left;
 }
 .app-card-container >.card {
-  padding: 20px;
+  height: 60%;  
+  width: 80%;
+  alignment: center;
+  padding: 10px;
   margin: 20px;
+  opacity: 0.8;
 }
 .profile-img{
-  borger: 1px solid grey;
+  border: 1px solid grey;
 }
 .app-card-container a{
   color: blue;
